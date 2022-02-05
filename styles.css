@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*------heading beginning ---------------*/
+body {
+    position: relative;
+}
+#header {
+    width: 100%;
+    height: 15vh;
+    z-index: 100;
+
+
+}
+
+
+.navbar {
+    width: 100vw;
+    height: 80px;
+    background-color: #b6e1e0;
+   
+}
+
+
+.navbar li  {
+  display: inline-block;
+  padding: 12px;
+
+
+}
+
+.navbar li a {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar li a:hover {
+    color: orange;
+    transform: scale(1.1);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+/*-----------heading ending---------------*/
+
+/*-------------main-heading beginning -------*/
+
+#principal-heading {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #e8630a;
+}
+
+
+.main {
+
+    width: 99%;
+    height: 17%;
+    background-color: greenyellow;
+    float: left;
+    padding: 6px;
+    margin-top: 175px;
+    margin-right: 20em;
+    border: 1px solid #2b4353;
+    background-color: #2b4353;
+  
+}
+
+.main h1 {
+font-family:'Oswald', sans-serif; 
+font-size: 40px ;
+ text-align: center;
+ color: white;;
+ margin-top: 15px;
+
+
+}
+
+/*--------main heding ending ---------*/
+
+/*------Meet up beginning section -------*/
+.meet-up {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 1700px;
+    position: absolute;
+    background-color: #9cd3d3;
+
+}
+
+.yooga1 h2 {
+color: rebeccapurple;
+font-size: 2em;
+margin-top: 2px;
+margin-left: 300px;
+text-align: center;
+
+}
+
+.yooga1 p {
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 20px;
+
+  
+}
+
+.yoga-img1 img {
+    width: 50vh;
+    height: 60vh; 
+   padding: 1px;
+   margin-top: 40px;
+   margin-left: 90px;
+
+}
+
+
+.yogaa-img2 img {
+    width: 82vh;
+      height: 700px;
+      margin-top: 4em;
+      margin-left: 420px;
+      padding-bottom: 20px;
+
+}
+/*------meet up beginning section --------*/
+#message-section {
+    width: 100vw;
+    height: 80vh;
+    background: #497285;
+}
+
+.message-section1 h3 {
+    
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+    color: orange;
+
+} 
+
+#message-section p {
+    font-size: 20px;
+    margin-top: 120px;
+    text-align: center;
+    color: aqua;
+}
+
+/*------meet up ending section --------*/
+
+/*------Join section beginning --------*/
+#join-content {
+    width: 100%;
+    height: 100%;
+    background-color: #f78536;
+}
+
+.join1 h2 {
+    color: yellow;
+    font-size: 40px;
+    text-align: center;
+}
+
+.join-img img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin-left: 370px;
+    margin-bottom: 3em;
+    width: 90vh;
+    
+
+}
+.join-img h3  {
+ color: yellow;
+ font-size: 25px;
+ text-align: center;
+ margin-bottom: 180px;
+
+
+
+
+}
+    
+/*-------join section endung ----------*/
+
+/*--------Footer beginning -----*/
+#footer {
+    width: 100%;
+    height: 50px;
+    background-color:  #78bbe6;
+}
+
+#footer p {
+    font-size: 18px;
+    font-weight: 40px;
+    text-align: center;
+   
+}
+
+/*--------Footer ending -----*/
+
+@media (max-width: 580px) and (min-width: 600px) {
+    #header {
+        width: 100%;
+        height: 8vh;
+      
+    
+    
+    }
+    
+
+
+    #principal-heading {
+        width: 100%;
+        height: 40vh;
+    }
+    
+    
+    /*--------main heding ending ---------*/
+    
+    /*------Meet up beginning section -------*/
+    .meet-up {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 1700px;
+      
+    
+    }
+    
+    .yooga1 h2 {
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: center;
+    
+    }
+    
+    .yooga1 p {
+        margin-top: 20px;
+        margin-left: 4px;
+        font-size: 18px;
+    
+      
+    }
+    
+    .yoga-img1 img {
+        width: 30vh;
+        height: 30vh; 
+      
+       margin-top: 40px;
+       margin-left: 90px;
+    
+    }
+    
+    
+    .yogaa-img2 img {
+        width: 36vh;
+          height: 700px;
+          margin-top: 4em;
+          margin-left: 8px;
+          padding-top: 30px;
+    
+    }
+    /*------meet up beginning section --------*/
+    #message-section {
+        width: 100vw;
+        height: 40vh;
+        background: #497285;
+    }
+
+    
+
+    /*------meet up ending section --------*/
+    
+    /*------Join section beginning --------*/
+    #join-content {
+        width: 100%;
+        height: 90%;
+    }
+    
+    .join1 h2 {
+        color: yellow;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .join-img img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+   
+        margin-left: 2px;
+        margin-bottom: 3em;
+        width: 35vh;
+        
+    
+    }
+    .join-img h3  {
+     color: yellow;
+     font-size: 25px;
+     text-align: center;
+     margin-bottom: 180px;
+    
+    
+    
+    
+    }
+        
+    /*-------join section endung ----------*/
+    
+    /*--------Footer beginning -----*/
+    #footer {
+        width: 100%;
+        height: 50px;
+        background-color:  #78bbe6;
+    }
+    
+    #footer p {
+        font-size: 18px;
+        font-weight: 40px;
+        text-align: center;
+       
+    }
+ 
+
+}
+
+
+
+
+@media (max-width: 632px){
+    body {
+        position: absolute;    }
+
+    #header {
+        width: 100%;
+        height: 15vh;
+      
+    
+    
+    }
+
+    #principal-heading {
+          width: 100vw;
+        height: 80vh;
+       
+    }
+    .main {
+        width: 98vw;
+    }
+
+    .main h1 {
+        margin-bottom: 40px;
+    }
+    
+    /*--------main heding ending ---------*/
+    
+    /*------Meet up beginning section -------*/
+    .meet-up {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 1700px;
+      
+    
+    }
+    
+    .yooga1 h2 {
+        margin-left: 1px;
+        margin-top: 15px;
+        font-size: 35px;
+       font-family: 'Balsamiq Sans', cursive;
+    }
+    
+    .yooga1 p {
+        margin-top: 20px;
+        margin-left: 2px;
+        font-size: 14px;
+        font-family: 'Balsamiq Sans', cursive;
+    
+      
+    }
+    
+    .yoga-img1 img {
+        width: 70vh;
+        height: 70vh; 
+       margin-top: 40px;
+       margin-left: 60px;
+    
+    }
+    
+    
+    .yogaa-img2 img {
+          width: 80vh;
+          height: 100vh;
+          margin-left: 30px;
+          padding-top: 105px;
+    
+    }
+   
+
+    #message-section {
+        height: 90vh;
+     
+    }
+
+
+
+    .join1 h2 {
+        margin-top: 20px;
+    }
+    
+    .join-img img {
+        margin-left: 25px;
+        margin-bottom: 3em;
+        width: 80vh;
+        height: 60vh;
+        
+    
+    }
+    .join-img h3  {
+     text-align: center;
+     margin-top: 16px;
+    
+    
+    
+    
+    }
+}
